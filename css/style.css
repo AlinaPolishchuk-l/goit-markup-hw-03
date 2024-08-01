@@ -135,6 +135,7 @@ p {
   letter-spacing: 0.04em;
   color: #fff;
   min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
   border: none;
   background: #4d5ae5;
@@ -216,6 +217,7 @@ p {
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
 }
 .team-card {
   margin: 0;
@@ -271,6 +273,8 @@ p {
   line-height: 150%;
   color: #434455;
   margin: 0;
+  column-gap: 48px;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-block {
   margin: 0;
